@@ -1,0 +1,43 @@
+﻿@{
+    DateTime hoy = DateTime.Now;
+}
+<div class="text-center">
+    <i class="bi bi-pc-display" style="color: red; font-size: 50px "></i>
+    <h1 class="display-4">Soy @Model.Nombre</h1>
+    <br />
+    <h3>Edad: @Model.Edad</h3>
+    <h3>Profesion: @Model.Profesion</h3>
+    <h3>Graduado de : @Model.Profesion</h3>
+
+    <h3>Estudio Lic. En coomputación, y me gusta aprender nuevas cosas a diario</h3>
+    <h3> Tecnologias de desarrollo: C# MySQL</h3>
+
+    <img id="foto"
+         src="~/imagenes/yo.jpg" alt="Logo Jose Gómez" />
+
+    <h5>@hoy.ToString("dd/MM/yyyy HH:mm:ss")</h5>
+</div>
+
+<br />
+
+<div class="text-center">
+    <img id="imagen-aspnet"
+         src="~/imagenes/logo-asp.png" alt="Logo ASP.NET Core" />
+</div>
+
+
+<div class="row justify-content-center text-justify bg-success">
+    <div class="col col-md-9 seccion-bienvenida">
+        <h2>Te doy la bienvenida a mi portafolio</h2>
+        <p>
+            Soy Estudiante de licenciatura en Computación en la universidad Andres Bello, voy por mi cuarto año,
+            Actualmente trabajo como mecanico de maquinas en Unilever Planta de Detergentes, pero cuando me
+            gradue buscare un trabajo apropiado a la carrera que estoy sacando. No lo hago antes, por las
+            ventajas que me ofrecen en mi trabajo con respecto a  que me dan permisos de sacar la carrera y
+            tambien en la ubicacion que tiene mi lugar de trabajo, ya que se encuentra a 2 cuadras de donde
+            vivo, lo cual me permite una movilidad muy rapida, y poner estar a tiempo en mis clases, cuando son
+            online.
+        </p>
+
+    </div>
+</div>

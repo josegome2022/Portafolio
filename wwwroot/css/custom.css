@@ -1,0 +1,61 @@
+﻿#foto {
+   width: 200px;
+   margin:2rem 0;
+   border-radius: 50%;
+   border: 2px solid black;
+}
+
+.seccion-bienvenida{
+    margin: 3rem 0 5rem 0;
+    color: white;
+
+}
+
+.seccion-bienvenida h2 {
+    margin-bottom: 1rem;
+}
+
+.seccion-bienvenida p{
+    font-family: 'Roboto Slab';
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+#imagen-aspnet{
+    height:250px;
+    width: 250px;
+}
+
+.cabecera{
+    font-weight: bold;
+}
+
+.margen-arriba{
+    margin-top: -50px;
+}
+
+.border-tabla1{
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 5px 5px 0 gray;
+}
+
+.border-tabla2 {
+    border-radius: 0  15px 15px 0;
+    box-shadow: 0 5px 5px 0 gray;
+}
+
+.habilidades h3{
+    margin-top: 10px;
+}
+
+.habilidades ul{
+    list-style: none;
+    padding-left: 0; 
+}
+
+
+.habilidades i {
+    color: #0d6efd;
+    font-size: 50px;
+
+}
